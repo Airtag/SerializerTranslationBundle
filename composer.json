@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.3.3",
-        "avoo/serializer-translation": "0.1.*",
+        "avoo/serializer-translation": "dev-fix-interface-usage",
         "jms/serializer-bundle": "~0.13"
     },
     "require-dev": {
@@ -28,5 +28,11 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/Airtag/SerializerTranslation.git"
+        }
+    ]
 }
